@@ -5,8 +5,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
         VertxServer vertxServer = new VertxServer();
 
-       // vertxServer.start();
+        //vertxServer.start();
 
-        new RouteServer().route();
+       // new RouteServer().route();
+
+        new ParamsServer().start();
     }
 }
